@@ -1,0 +1,168 @@
+.title-block{
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	
+	&_h2{
+		margin: 0;
+		font-size: 28px;
+		font-family: $ff-main-bold;
+		color: #3f4147;
+		text-transform: uppercase;
+	   }
+	  &_line{
+	  	width: 40px;
+	  	height: 2px;
+	  	background-color: #a70c5d;
+	  	margin: auto;
+	  	margin-top: 20px;
+	  }
+
+	   &_text{
+	   	font-family: $ff-main;
+		font-size: 15px;
+		line-height: 20px;
+		color: #3f4147;
+		margin-top: 20px;
+
+	   	span{
+	   		font-family: $ff-main-bold;
+	   	}
+	   }
+}
+
+.main-prise{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+	
+
+
+    &-wraper{
+    	position: relative;
+    	margin-top: 60px;
+    	width: 431px;
+    	margin-bottom: 27px;
+
+    	@media (max-width: 1100px){
+				margin-left: 10px;
+				margin-right: 10px;
+    	}
+		
+		@media (max-width: 960px){
+		justify-content: center;
+		width: 100%;
+	}
+
+			
+    	.prise-picture{
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    	}
+    	.a-coursor{
+    		cursor: url('../images/hover_icon-.png.png');
+    	}
+
+    	.i-text{
+			position: absolute;
+			top: 11px;
+			right: 5px;
+			width: 32px;
+			height: 32px;
+			border: 3px solid #a70c5d;
+			border-radius: 50%;
+			display: inline-block;
+			text-align: center;
+			font-family: 'bandera_proregular_bold';
+			font-size: 16px;
+			color: #727478;
+			padding: 3px;
+    	}
+
+    	.i-text-bgc{
+    		background-color: #a70c5d;
+    		color: #fff;
+    	}
+
+    	.name-prise{
+    		width: 55%;
+       		font-family: $ff-main-bold;
+    		font-size: 15px;
+    		color: #3f4147;
+    		text-transform: uppercase;
+    		line-height: 20px;
+    		margin: 0;
+			margin-left: 67px;
+			margin-top: 11px;
+    	}
+
+    	.more-width{
+    		width: 80%;
+
+    		@media (max-width: 960px){
+    			width: 60%;
+    		}
+    	}
+
+    	.text-content{
+    		font-family: $ff-main;
+    		font-size: 13px;
+    		color: $main-color;
+    		line-height: 20px;
+    		margin-left: 67px;
+			
+ 
+    	}
+
+    	.text-over{
+    		width: 101%;
+
+    		@media (max-width: 1250px){
+    			width: auto;
+    		}
+    	}
+    	.another-size{
+    		font-size: 13.5px;
+    	}
+    	.red-ellipse:before{
+    		content: url(../images/Ellipse-red.png);
+    		padding-right: 17px;
+    	}
+
+    	.padding-top{
+    		padding-top: 30px;
+    	}
+    }
+}
+ .linedot-y{
+ 	margin: 0;
+ }
+ .linedot-y:before{
+    	content: '..................................................................................................................................................................................................................................................................................................................................................................................................................';
+    	width: 100%;
+    	overflow: hidden;
+    	margin: 0;
+    	font-size: 11px;
+    	font-family: 'roombold';
+    	letter-spacing: 5px;
+    	color: #3f4147;
+    	display: flex;
+    }
+   .lihedit-y{
+   	writing-mode: vertical-rl;
+   	height: 205px;
+   	letter-spacing: 6px;
+   	font-size: 11px;
+    	font-family: 'roombold';
+    	color: #3f4147;
+    	overflow: hidden;
+    	margin-top: 30px;
+    	width: 13px;
+
+    	@media (max-width: 960px){
+		display: none;
+	}
+   }

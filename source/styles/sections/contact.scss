@@ -1,0 +1,139 @@
+.form-container{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 11%;
+	width: 380px;
+
+	@media (max-width: 460px){
+		width: 70%;
+	}
+
+	input{
+		display: block;
+		width: 100%;
+		text-transform: uppercase;
+		border: none;
+		border-bottom: 1px solid #dcdcdc;
+		color: #3f4147;
+		outline: none;
+		font-family: $ff-main-bold;
+		font-size: 11px;
+		padding-bottom: 10px;
+		margin-top: 30px;
+		cursor: pointer;
+
+		&::placeholder,-ms-input-placeholder {
+			color: #727478;
+			font-family: $ff-main-medium;
+		}
+		&::-ms-input-placeholder {
+			color: #727478;
+			font-family: $ff-main-medium;
+		}
+	}
+}
+
+.text-intresting{
+	border: 1px solid #dcdcdc;
+	margin-top: 50px;
+
+	&-header{
+		position: relative;
+		text-transform: uppercase;
+		background-color: #fcfcfd;
+		border-bottom: 1px solid #dcdcdc;
+		color: #3f4147;
+		font-family: $ff-main-medium;
+		font-size: 11px;
+		padding: 20px 0 20px 22px;
+	}
+
+	&-content{
+		padding-top: 30px;
+		padding-left: 22px;
+	}
+
+	.grey-ellipse{
+		font-size: 13px;
+		font-family: $ff-main;
+		line-height: 20px;
+		color: #3f4147;
+		padding-bottom: 17px;
+
+		&:hover{
+		color: #a70c5d;
+		cursor: pointer;
+		font-family: $ff-main-bold;
+			&:before{
+			content: url(../images/Ellipse-red.png);	
+			}
+		}
+
+		&:before{
+    		content: url(../images/Ellipse-13.png);
+    		padding-right: 17px;
+    	}
+	}
+}
+
+.header-img{
+	position: absolute;
+	top: 14px;
+	right: 25px;
+}
+
+.textarea{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+	padding-top: 31px;
+
+	@media (max-width: 460px){
+		width: 70%;
+	}
+
+	@media (max-width: 945px){
+		margin-left: 11%;
+	}
+
+	&_text{
+		font-family: $ff-main-medium;
+		text-transform: uppercase;
+		font-size: 11px;
+		color: #3f4147;
+		padding-bottom: 8px;
+	}
+
+	&_place{
+		resize: none;
+		outline: none;
+		width: 390px;
+		height: 350px;
+		border: 1px solid #dcdcdc;
+		color: #3f4147;
+		font-family: $ff-main;
+		font-size: 15px;
+		padding-left: 18px;
+		padding-top: 18px;
+
+		@media (max-width: 460px){
+		width: 100%;
+	}
+	}
+}
+
+.button--text{
+	display: inherit;
+	margin: auto;
+          width: 180px;
+          height: 50px;
+          background-color: #a70c5d;
+          border-radius: 25px;
+          color: #fff;
+          font-family: $ff-main-black;
+          font-size: 11px;
+          border: none;
+          outline: none;
+          margin-top: 38px;
+          margin-bottom: 30px;
+}

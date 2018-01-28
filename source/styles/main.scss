@@ -1,0 +1,17 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+
+@import "global/media";
+@import "global/mixins";
+@import "global/base";
+@import "global/fonts";
+@import "global/vars";
+@import "global/common";
+
+
+@import "sections/header";
+@import "sections/content";
+@import "sections/reveiw";
+@import "sections/contact";
+@import "sections/footer";

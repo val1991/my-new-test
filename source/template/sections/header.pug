@@ -1,0 +1,26 @@
+header.header
+	.center-center
+		img(src="images/Ellipse-9.png", alt="picture")
+		img(src="images/vector-5.png", alt="picture")
+	.container
+		.header__top
+			.logo: img.logo__picture(src="images/logo.png" alt="picture")
+			nav.nav
+				- var items = ['услуги и цены', 'отзывы', 'контакты']
+					each item in items
+						a.nav__link(href="#")= item
+			.botton-wrap
+				img.botton(src="images/button.png", alt="button")
+				img.botton-wrap-ellipse(src="images/Ellipse-1.png", alt="button")
+				.botton-wrap-text ru
+
+		.header_bottom
+			.header-text
+				h1.h1-for-text Правовое сопровождение малого ИТ-бизнеса
+				.line
+				p.p-for-text Зачастую интернет-проекты, разработчики, маркетологи, дизайнеры, стартаперы и другие IT-специалисты не уделяют должного внимания правовым аспектам своей деятельности.
+				p.p-for-text.with-span Но #[span документы должны быть в порядке,] и мы в этом поможем.
+
+				.button-prise
+					img.vector-6(src="images/vector-6.png" alt="picture")
+					.text-button услуги и цены
